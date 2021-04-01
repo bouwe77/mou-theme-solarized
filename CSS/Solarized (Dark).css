@@ -62,7 +62,6 @@ h4,
 h5,
 h6 {
   font-weight: lighter;
-  text-transform: capitalize;
   margin-top: 20px;
   margin-bottom: 20px;
 }
