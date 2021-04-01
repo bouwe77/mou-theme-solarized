@@ -1,3 +1,8 @@
+/* Solarized (Dark) */
+/* Authors: Ethan Schoonover: http://ethanschoonover.com/solarized, CodeCatalyst: http://codecatalyst.com/ */
+/* Version: d9a83f4e7a47432baff86e1e7946d9e066cf3d1b (modified) */
+/* https://github.com/CodeCatalyst/mou-theme-solarized */
+
 html,
 body,
 h1,
@@ -20,12 +25,14 @@ img {
 }
 html * {
   font-family: "ff-din-web-pro-1", "ff-din-web-pro-2", sans-serif;
-  font-size: 16px;
-  line-height: 19.2px;
+  font-size: 24px;
+  line-height: 28px;
   color-profile: sRGB;
 }
 body {
-  margin: 40px 70px;
+  min-width: 32em;
+  max-width: 52em;
+  margin: 10px;
 }
 p {
   font-weight: lighter;
@@ -56,32 +63,32 @@ h5,
 h6 {
   font-weight: lighter;
   text-transform: capitalize;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 h1 {
-  font-size: 24.624px;
-  line-height: 29.548799999999996px;
+  font-size: 32px;
+  line-height: 36px;
 }
 h2 {
-  font-size: 24.624px;
-  line-height: 29.548799999999996px;
+  font-size: 32px;
+  line-height: 36px;
 }
 h3 {
-  font-size: 23.44px;
-  line-height: 28.128px;
+  font-size: 31px;
+  line-height: 35px;
 }
 h4 {
-  font-size: 22.16px;
-  line-height: 26.592px;
+  font-size: 30px;
+  line-height: 34px;
 }
 h5 {
-  font-size: 22.16px;
-  line-height: 26.592px;
+  font-size: 30px;
+  line-height: 34px;
 }
 h6 {
-  font-size: 22.16px;
-  line-height: 26.592px;
+  font-size: 30px;
+  line-height: 34px;
 }
 img {
   margin-bottom: 20px;
@@ -108,23 +115,9 @@ pre {
   word-wrap: break-word;
   padding: 15px;
 }
-blockquote {
-  border-left: 4px solid;
-  padding: 0 15px;
-}
-blockquote > :first-child {
-  margin-top: 0;
-}
-blockquote > :last-child {
-  margin-bottom: 15px;
-}
 h1 {
   text-transform: uppercase;
   font-weight: bold;
-  border-bottom: 1px solid;
-}
-h2 {
-  border-bottom: 1px solid;
 }
 h3,
 h4,
@@ -136,7 +129,7 @@ html * {
   color: #839496;
 }
 html body {
-  background-color: #002b36;
+  background-color: #1a1a2e;
 }
 html h1,
 html h2,
@@ -163,24 +156,39 @@ html a,
 html a:active,
 html a:visited,
 html code.url {
-  color: #b58900;
+  color: #e94560;
 }
 html h1 {
-  color: #b58900;
+  color: #e94560;
 }
 html h2,
 html h3,
 html h4,
 html h5,
 html h6 {
-  color: #b58900;
+  color: #e94560;
 }
 
-@media print {
-  body {
-    margin: 0;
-  }
-  * {
-    color: #000 !important;
-  }
-}
+/*
+LICENSE
+
+Solarized Theme for Mou
+
+Copyright (c) 2012 CodeCatalyst, LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Solarized
+
+Copyright (c) 2011 Ethan Schoonover
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
